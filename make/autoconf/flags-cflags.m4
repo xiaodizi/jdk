@@ -489,6 +489,7 @@ AC_DEFUN([FLAGS_SETUP_CFLAGS_HELPER],
     # Restrict the debug information created by Clang to avoid
     # too big object files and speed the build up a little bit
     # (see http://llvm.org/bugs/show_bug.cgi?id=7554)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-register")
     TOOLCHAIN_CFLAGS_JVM="$TOOLCHAIN_CFLAGS_JVM -flimit-debug-info"
 
     # In principle the stack alignment below is cpu- and ABI-dependent and
