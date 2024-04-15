@@ -73,7 +73,7 @@ public class Stars3D extends ControlsSurface {
     private Shape shape, tshape;
     private Shape ribbon;
     protected int fontSize = 72;
-    protected String text = "OpenJDK";
+    protected String text = "RatuJDK";
     protected int numStars = 300;
 
     public Stars3D() {
@@ -307,7 +307,7 @@ public class Stars3D extends ControlsSurface {
             }
             int length = getSize().width / 4;
             int size[] = { length, length };
-            String str[] = { "OpenJDK", "J2D" };
+            String str[] = { "RatuJDK", "J2D" };
             while (thread == me) {
                 for (int i = 0; i < str.length; i++) {
                     demo.fontSize = size[i];

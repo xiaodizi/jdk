@@ -92,7 +92,7 @@ public class ColorConvert extends Surface {
         srcG.setRenderingHints(rhs);
         srcG.drawImage(img, 0, 0, null);
 
-        String s = "OpenJDK";
+        String s = "RatuJDK";
         Font f = new Font(Font.SERIF, Font.BOLD, iw / 6);
         tl = new TextLayout(s, f, frc);
         Rectangle2D tlb = tl.getBounds();

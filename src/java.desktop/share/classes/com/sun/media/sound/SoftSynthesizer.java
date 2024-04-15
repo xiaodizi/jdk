@@ -178,7 +178,7 @@ public final class SoftSynthesizer implements AudioSynthesizer,
     }
 
     static final String INFO_NAME = "Gervill";
-    static final String INFO_VENDOR = "OpenJDK";
+    static final String INFO_VENDOR = "RatuJDK";
     static final String INFO_DESCRIPTION = "Software MIDI Synthesizer";
     static final String INFO_VERSION = "1.0";
     static final MidiDevice.Info info = new Info();

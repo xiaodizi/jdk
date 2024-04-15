@@ -55,7 +55,7 @@ import java2d.AnimatingSurface;
 @SuppressWarnings("serial")
 public class Highlighting extends AnimatingSurface {
 
-    private static String text[] = { "HIGHLIGHTING", "OpenJDK" };
+    private static String text[] = { "HIGHLIGHTING", "RatuJDK" };
     private static Color colors[] = { CYAN, LIGHT_GRAY };
     private static Font smallF = new Font("Monospaced", Font.PLAIN, 8);
     private int[] curPos;

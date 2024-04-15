@@ -141,7 +141,7 @@ public class Text extends ControlsSurface {
             g2.fill(shape.getBounds());
             g2.setColor(CYAN);
             f = new Font(Font.SERIF, Font.BOLD, 10);
-            tl = new TextLayout("OpenJDK", f, frc);
+            tl = new TextLayout("RatuJDK", f, frc);
             sw = tl.getBounds().getWidth();
 
             int x = r.x;

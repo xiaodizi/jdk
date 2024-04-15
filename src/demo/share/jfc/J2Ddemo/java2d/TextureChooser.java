@@ -112,7 +112,7 @@ public final class TextureChooser extends JPanel {
 
     public TexturePaint getTextTexture() {
         Font f = new Font(Font.SERIF, Font.BOLD, 10);
-        TextLayout tl = new TextLayout("OpenJDK", f, new FontRenderContext(null,
+        TextLayout tl = new TextLayout("RatuJDK", f, new FontRenderContext(null,
                 false, false));
         int sw = (int) tl.getBounds().getWidth();
         int sh = (int) (tl.getAscent() + tl.getDescent());

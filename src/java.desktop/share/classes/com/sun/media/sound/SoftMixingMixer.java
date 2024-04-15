@@ -59,7 +59,7 @@ public final class SoftMixingMixer implements Mixer {
 
     static final String INFO_NAME = "Gervill Sound Mixer";
 
-    static final String INFO_VENDOR = "OpenJDK Proposal";
+    static final String INFO_VENDOR = "RatuJDK Proposal";
 
     static final String INFO_DESCRIPTION = "Software Sound Mixer";
 
