@@ -188,8 +188,8 @@ var getJibProfiles = function (input) {
     data.format_version = "1.2";
 
     // Organization, product and version are used when uploading/publishing build results
-    data.organization = "";
-    data.product = "jdk";
+    data.organization = "RatuTech";
+    data.product = "RatuJDK";
     data.version = getVersion();
 
     // The base directory for the build output. JIB will assume that the
