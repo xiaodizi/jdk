@@ -38,7 +38,7 @@ LAUNCHER_NAME=RatuJDK
 PRODUCT_NAME=RatuJDK
 PRODUCT_SUFFIX="Runtime Environment"
 JDK_RC_PLATFORM_NAME=Platform
-COMPANY_NAME=N/A
+COMPANY_NAME=RatuJDK
 HOTSPOT_VM_DISTRO="RatuJDK"
 
 # Might need better names for these
