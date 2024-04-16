@@ -135,7 +135,7 @@ public class ToolsOpts extends TestHelper {
             if (pat.compareTo("-J-version") == 0 ||
                     pat.compareTo("-J-showversion") == 0) {
                 if (!tr.contains("java version") &&
-                        !tr.contains("openjdk version")) {
+                        !tr.contains("RatuJDK version")) {
                     throw new RuntimeException("failed: " + pat +
                             " should display a version string.");
                 }
